@@ -439,7 +439,7 @@ a{
 }
 .menu_footer ul li{
     display: inline-block;
-    padding-right: 18px;
+    padding-right: 25px;
 }
 .menu_footer ul li a{
     text-decoration: none;
@@ -447,6 +447,7 @@ a{
 }
 center{
     color: white;
+    padding-top: 40px;
 }
 .in_banner{
     padding-top: 60px;
@@ -477,6 +478,31 @@ center{
     border: 2px solid black;
     color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.in_lap{
+    padding-top: 50px;
+}
+
+.in_lap .line1{
+    margin-left: 480px;
+    font-family: latobold;
+    font-size: 15px;
+    color: black;
+}
+.in_lap .line2{
+    margin-left: 480px;
+    font-family: latobold;
+    font-size: 15px;
+    color: #0f8ce9;
+}
+
+.in_lap .button_lap{
+    margin-left: 500px;
+    width: 100px;
+    height: 40px;
+    background-color: #f22f49;
+    border-radius: 7px;
 }
 
 
