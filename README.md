@@ -9,5 +9,6 @@
  * github page: https://vuthuan.github.io/Btap3_VNP/
  * PSD: https://github.com/colombo-trainee/psd-2019/tree/master/lesson%203
 ## Kiến thức nắm được
- * Củng cố kiến thức HTNL/CSS/JS
- * Tạo 1 trang html cơ bản từ PSD, có sử JS, không Responsive
+ * Củng cố kiến thức HTNL/CSS
+ * Cắt PSD
+ * Tạo 1 trang html cơ bản từ PSD, không Responsive
