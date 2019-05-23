@@ -1,7 +1,7 @@
 # Btap3_VNP
 # Bài tập Trainee Colombo 2019
 ## Chuyển từ psd sang html
- * Tạo 1 trang html từ file PSD cho trước Sử dụng JS để tạo hiệu ứng
+ * Tạo 1 trang html từ file PSD cho trước
 
  * Thực hiện bởi [Lương Vũ Thuần](https://github.com/VuThuan)
 
