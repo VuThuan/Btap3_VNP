@@ -7,7 +7,7 @@
 
 ## Liên kết
  * github page: https://vuthuan.github.io/Btap3_VNP/
- * PSD: https://github.com/colombo-trainee/psd-2019/tree/master/lesson%203
+ * PSD: https://github.com/VuThuan/Btap3_VNP/blob/master/Creative%20MultiPurpose%20eCommerce%20Website%20Template%20PSD.psd
 ## Kiến thức nắm được
  * Củng cố kiến thức HTNL/CSS
  * Cắt PSD
