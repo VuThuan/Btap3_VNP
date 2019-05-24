@@ -21,6 +21,7 @@ body{
 }
 #container {
     margin: 0;
+    min-width: 1000px;
 }
 
 #header{
