@@ -647,6 +647,8 @@ center{
     color: black;
     text-decoration: none;
     display: block;
+    padding-left: 4px;
+    font-family: latobold;
 }
 .button-banner:hover{
     border: 2px solid white;
