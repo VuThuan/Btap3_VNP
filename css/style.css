@@ -312,6 +312,7 @@ width: 10%;
 /*mid*/
 
 .mid{
+    padding-top: 15px;
     width: 100%;
     display: flex;
     font-family: latoreg;
