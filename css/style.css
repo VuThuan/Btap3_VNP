@@ -290,10 +290,9 @@ width: 10%;
  }
 
 
-.image_2{
+.image_2 img{
     margin-top: 8%;
-    background-image: url('../Images/hot_deal.jpg');
-    background-size: 100% 100%;
+    width: 235px;
     height: 200px;
 }
 /*Test*/
@@ -377,10 +376,9 @@ width: 10%;
     width: 22%;
     margin: 0 13px;
 }
-.image_3{
+.image_3 img{
     margin-top: 2%;
-    background-image: url('../Images/new_product.jpg');
-    background-size: 100% 100%;
+    width: 165px;
     height: 200px;
 }
 
