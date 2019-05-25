@@ -251,7 +251,8 @@ width: 10%;
   display: flex;
   border-bottom: 1px solid #a6a6a6;
   padding-bottom: 14px;
-  padding-top: 16px;
+  padding-top: 18px;
+  padding-left: 10px;
   justify-content: space-between;
 }
 
@@ -406,7 +407,7 @@ width: 10%;
     text-align: left;
 }
 .box input{
-    width: 90%;
+    width: 97%;
     height: 40px;
     border-radius: 9px;
     font-size: 15px;
@@ -698,18 +699,16 @@ center{
     color: #fff;
 }
 .button-banner{
-    width: 100px;
     margin-left: 160px;
-    padding: 10px 0;
+    padding: 10px;
     border: 2px solid black;
     text-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.button-banner a{
-    color: black;
-    text-decoration: none;
-    display: block;
     text-align: center;
-    font-family: latobold;
+    color: black;
+}
+.button-banner:hover{
+    border: 2px solid white;
+    color: white;
 }
 
 .in_lap{
