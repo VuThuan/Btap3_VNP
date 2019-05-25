@@ -166,7 +166,7 @@ width: 10%;
     font-family: latoreg;
 }
 #menu_2 .cate_2 ul li{
-    padding-right: 6%;
+    padding-right: 48px;
 }
 #menu_2 .cate_2 ul li a{
     white-space: nowrap;
