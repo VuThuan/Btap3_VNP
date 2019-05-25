@@ -21,7 +21,7 @@ body{
 }
 #container {
     margin: 0;
-    min-width: 1200px;
+    min-width: 1300px;
 }
 
 #header{
@@ -52,9 +52,6 @@ body{
 .menu_1{
     height: 50px;
     width: 100%;
-}
-.menu_2{
-    height: 60px;
 }
 
 .menu_1 ul {
@@ -97,7 +94,8 @@ a{
 .menu_2{
   width: 100%;
   display: flex;
-  padding-left: 16%;
+  padding-left: 14%;
+  height: 60px;
 }
 
 .search button i{
@@ -159,6 +157,7 @@ width: 10%;
 #menu_2 .cate_2{
     padding-top: 15px;
     width: 70%;
+    margin-right: 105px;
 }
 #menu_2 .cate_2 ul{
     padding-left: 2%;
@@ -168,6 +167,9 @@ width: 10%;
 }
 #menu_2 .cate_2 ul li{
     padding-right: 6%;
+}
+#menu_2 .cate_2 ul li a{
+    white-space: nowrap;
 }
 
 /*Banner*/
@@ -260,13 +262,19 @@ width: 10%;
     text-align: right;
 }
 
-.dots .dot {
+.dots .dot_left,.dot_right {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
 }
+.dots .dot_left i{
+    padding-right: 2px;
+}
+.dots .dot_right i{
+    padding-left: 2px;
+}
 
- .dots .dot i {
+ .dots .dot_left i, .dot_right i {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -277,7 +285,7 @@ width: 10%;
   text-align: center;
   cursor: pointer;
 }
- .dots .dot i:hover{
+ .dots .dot_left i:hover,.dot_right i:hover{
      background: red;
  }
 
@@ -556,18 +564,16 @@ width: 10%;
     padding-left: 20px;
 }
 
-.image_4{
-    background-image: url('../Images/image_3.png');
-    background-size: 100% 100%;
-    padding: 10px 0 0 10px;
-    width: 40%;
+.image_4 img{
+    padding: 10px 10px 0 10px;
+    width: 80px;
     height: 80px;
 }
 
 
 .fb{
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .last_foot{
     margin-top: 2%;
