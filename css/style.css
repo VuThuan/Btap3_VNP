@@ -287,20 +287,26 @@ width: 10%;
     background-size: 100% 100%;
     height: 200px;
 }
-.price{
+/*Test*/
+.item_1{
+    text-align: center;
     padding-top: 15px;
     font-family: latoreg;
-    text-align: center;
 }
-.price ul{
-    list-style-type: none;
+.item_1 p{
+    padding-bottom: 6px;
 }
-.price ul li{
-    padding-top: 5px;
+.item_1 p b{
+    padding-left: 6px;
+    color: black;
 }
-.price ul li i{
+.item_1 p i{
     color:#ffc808;
 }
+.item_1 a{
+    color:#6e6e6e;
+}
+/*End test*/
 
 .pro_new{
     margin-top: 3%;
@@ -353,15 +359,15 @@ width: 10%;
 /*mid*/
 
 .mid{
-    padding: 15px 15px;
-    width: 100%;
+    margin: 15px 15px;
+    width: 98%;
     display: flex;
     font-family: latoreg;
     font-size: 14px;
 }
 .product_1,.product_2,.product_3,.product_4{
     width: 21%;
-    padding-right: 21px;
+    margin: 0 10px;
 }
 .image_3{
     margin-top: 2%;
@@ -369,38 +375,30 @@ width: 10%;
     background-size: 100% 100%;
     height: 200px;
 }
-.price_3{
-    padding-top: 15px;
-    width: 100%;
-    font-family: latoreg;
+
+/*4*/
+
+.price_4{
     text-align: center;
+    padding-top: 15px;
+    font-family: latoreg;
+    font-size: 13px;
 }
-.price_3 ul{
-    list-style-type: none;
+.price_4 p{
+    padding-bottom: 6px;
 }
-.price_3 ul li{
-    padding-bottom: 8px;
-}
-.price_3 ul li b{
-    padding-left: 8px;
+.price_4 p b{
+    padding-left: 6px;
     color: black;
 }
-.price_4 ul li b{
-    padding-left: 8px;
-    color: black;
-}
-.price ul li b{
-    padding-left: 8px;
-    color: black;
-}
-
-.price_3 ul li i{
+.price_4 p i{
     color:#ffc808;
 }
-
-.price_4 ul li i{
-    color:#ffc808;
+.price_4 a{
+    color:#6e6e6e;
 }
+
+/*end*/
 
 .box{
     padding-left: 10px;
@@ -410,10 +408,12 @@ width: 10%;
 }
 .box input{
     width: 90%;
-    height: 35px;
+    height: 40px;
     border-radius: 9px;
     font-size: 15px;
     background-color: #f3f3f3;
+    border: none;
+    out
 }
 
 .box_button{
@@ -441,7 +441,7 @@ width: 10%;
     margin-top: 5%;
     margin-left: 25%;
     background-color: #fff;
-    width: 69%;
+    width: 68%;
     height: 420px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -462,12 +462,13 @@ width: 10%;
 
 .fasion_1{
     display: flex;
-    margin: 14px 9px;
+    margin: 9px 7px;
     background-color: white;
     width: 48%;
     height: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 
 .fasion_1 .fasion_img{
     background-image: url('../Images/image_5.png');
@@ -518,7 +519,6 @@ width: 10%;
     padding-top: 60px;
     padding-left: 50px;
     width: 50%;
-    height: 100%;
     font-family: latobold;
 }
 .lap_btn{
@@ -564,23 +564,12 @@ width: 10%;
     width: 40%;
     height: 80px;
 }
+
+
 .fb{
     display: flex;
     padding-bottom: 30px;
 }
-.price_4{
-    width: 50%;
-    padding-left: 8px;
-    font-size: 13px;
-    font-family: latoreg;
-}
-.price_4 ul{
-    list-style-type: none;
-}
-.price_4 ul li{
-    padding-bottom: 4px;
-}
-
 .last_foot{
     margin-top: 2%;
     width: 100%;
@@ -593,15 +582,6 @@ width: 10%;
     margin-left: 8%;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    margin-right: 8%;
-}
-.logo_4{
-    text-align: center;
-    background-image:url('../Images/image_4.png');
-    background-size: 100% 100%;
-    padding-left: 15px;
-    width: 70%; 
-    height: 90px;
 }
 
 #footer{
