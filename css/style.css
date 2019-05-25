@@ -360,14 +360,13 @@ width: 10%;
 
 .mid{
     margin: 15px 15px;
-    width: 98%;
     display: flex;
     font-family: latoreg;
     font-size: 14px;
 }
 .product_1,.product_2,.product_3,.product_4{
-    width: 21%;
-    margin: 0 10px;
+    width: 22%;
+    margin: 0 13px;
 }
 .image_3{
     margin-top: 2%;
