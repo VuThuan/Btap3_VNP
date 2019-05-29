@@ -1,6 +1,6 @@
 //Counter
 var count = 1;
-
+var count1 = 1;
 //function=====================
 function RightBtn(sld_1, size, length, slg) {
     sld_1.style.transition = "transform 0.6s ease-in-out";
@@ -25,7 +25,12 @@ var slides = document.querySelectorAll(".image_container .image");
 var size = slides[0].clientWidth;
 
 var time = setInterval(function () {
-    RightBtn(Slides_1, size, slides.length, 1);
+    Slides_1.style.transition = "transform 0.6s ease-in-out";
+    count1++;
+    if (count1 > slides.length - 1) {
+        count1 = 0;
+    }
+    Slides_1.style.transform = 'translateX(' + (-size * count1) + 'px)';
 }, 4000);
 
 function slideLeft() {
