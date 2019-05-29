@@ -294,6 +294,16 @@ width: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.hot_container{
+    display: flex;
+}
+.deal_1{
+    overflow: hidden;
+}
+.deal_2{
+    overflow: hidden;
+}
+
 .card-header {
   display: flex;
   border-bottom: 1px solid #a6a6a6;
@@ -372,6 +382,11 @@ width: 10%;
 }
 .pro_new .new_1{
     margin: 10px;
+    overflow: hidden;
+}
+.pro_new .new_2{
+    margin: 10px;
+    overflow: hidden;
 }
 /*new product*/
 .pro_title{
@@ -416,7 +431,6 @@ width: 10%;
     display: flex;
     font-family: latoreg;
     font-size: 14px;
-    overflow: hidden;
 }
 .product_1,.product_2,.product_3,.product_4{
     width: 22%;
