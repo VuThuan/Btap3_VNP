@@ -90,8 +90,10 @@
                             </p>
 
                             <div class="dots">
-                                <div class=" dot_left" onclick="hot_left();"><i class="fa fa-caret-left"></i></div>
-                                <div class=" dot_right" onclick="hot_right();"><i class="fa fa-caret-right"></i></div>
+                                <div class=" dot_left" onclick="btnHotDealLeft();"><i class="fa fa-caret-left"></i>
+                                </div>
+                                <div class=" dot_right" onclick="btnHotDealRight();"><i class="fa fa-caret-right"></i>
+                                </div>
                             </div>
 
                         </div>
@@ -152,8 +154,10 @@
                             </p>
 
                             <div class="dots">
-                                <div class="dot_left" onclick="hot_left2();"><i class="fa fa-caret-left"></i></div>
-                                <div class="dot_right" onclick="hot_right2();"><i class="fa fa-caret-right"></i></div>
+                                <div class="dot_left" onclick="btnSpecialDealLeft();"><i class="fa fa-caret-left"></i>
+                                </div>
+                                <div class="dot_right" onclick="btnSpecialDealRight();"><i
+                                        class="fa fa-caret-right"></i></div>
                             </div>
 
                         </div>
@@ -256,18 +260,18 @@
                             </div>
                         </div>
                     </div>
-                    <a class="prev" onclick="slideLeft();">&#10094;</a>
-                    <a class="next" onclick="slideRight();">&#10095;</a>
+                    <a class="prev" onclick="btnSlideLeft();">&#10094;</a>
+                    <a class="next" onclick="btnSlideRight();">&#10095;</a>
                     <div class="banner_text">
-                        <div class="banner1" onclick="Next(0)">
+                        <div class="banner1" onclick="currentSlide(0)">
                             <span style="font-size: 16px"><a href="#">MONEY BACK</a></span> <br>
                             30 Days Money Back Guarantee
                         </div>
-                        <div class="banner1" onclick="Next(1)">
+                        <div class="banner1" onclick="currentSlide(1)">
                             <span style="font-size: 16px"><a href="#">FREE SHIPPING</a></span> <br>
                             Shipping on orders over $99
                         </div>
-                        <div class="banner1" onclick="Next(2)">
+                        <div class="banner1" onclick="currentSlide(2)">
                             <span style="font-size: 16px"><a href="#">SPICIAL SALE</a></span> <br>
                             Extra $5 off on all items
                         </div>
@@ -289,8 +293,8 @@
                                 </ul>
                             </div>
                             <div class="dots">
-                                <div class="dot_left" onclick="product_Left();"><i class="fa fa-caret-left"></i></div>
-                                <div class="dot_right" onclick="product_Right();"><i class="fa fa-caret-right"></i>
+                                <div class="dot_left" onclick="btnProductLeft();"><i class="fa fa-caret-left"></i></div>
+                                <div class="dot_right" onclick="btnProductRight();"><i class="fa fa-caret-right"></i>
                                 </div>
                             </div>
                         </div>
@@ -444,8 +448,9 @@
                                 </ul>
                             </div>
                             <div class="dots">
-                                <div class="dot_left" onclick="late_Left();"><i class="fa fa-caret-left"></i></div>
-                                <div class="dot_right" onclick="late_Right();"><i class="fa fa-caret-right"></i></div>
+                                <div class="dot_left" onclick="btnLateProLeft();"><i class="fa fa-caret-left"></i></div>
+                                <div class="dot_right" onclick="btnLateProRight();"><i class="fa fa-caret-right"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="mid">
@@ -601,8 +606,10 @@
                         <div class="pro_title">
                             <div class="pro_name">FEATURED PRODUCTS</div>
                             <div class="dots">
-                                <div class="dot_left" onclick="fea_Left();"><i class="fa fa-caret-left"></i></div>
-                                <div class="dot_right" onclick="fea_right();"><i class="fa fa-caret-right"></i></div>
+                                <div class="dot_left" onclick="btnFeatureProLeft();"><i class="fa fa-caret-left"></i>
+                                </div>
+                                <div class="dot_right" onclick="btnFeatureProRight();"><i class="fa fa-caret-right"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="future_a">
@@ -861,7 +868,7 @@ a cold world out there.
         </div>
     </div>
 
-    <script src="js/style.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
