@@ -1,6 +1,6 @@
 //Counter
-var count = 1;
-var count1 = 1;
+var count = 0;
+var count1 = 0;
 //function=====================
 function RightBtn(sld_1, size, length, slg) {
     sld_1.style.transition = "transform 0.6s ease-in-out";
@@ -71,6 +71,19 @@ function late_Left() {
 
 function late_Right() {
     RightBtn(late_1, late_size, latests.length, 5);
+}
+
+//featured product==============================================
+var fea_1 = document.querySelector(".future_a");
+var features = document.querySelectorAll(".future_a .future_2");
+
+var fea_size = features[0].clientWidth;
+console.log(fea_size);
+function fea_Left() {
+    LeftBtn(fea_1, fea_size - 35, features.length, 3);
+}
+function fea_right() {
+    RightBtn(fea_1, fea_size - 35, features.length, 3);
 }
 
 //hot deal

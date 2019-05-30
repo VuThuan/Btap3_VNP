@@ -599,11 +599,11 @@ width: 10%;
 }
 
 .future{
-    margin-top: 3%;
     margin-left: 3%;
     background-color: white;
     width: 86%;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
 }
 .future .pro_title .pro_name{
     width: 30%;
@@ -616,10 +616,15 @@ width: 10%;
 }
 
 .future_a{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding-top: 30px;
-    padding-left: 20px;
+    display: flex;
+    padding: 20px 20px 20px 0;
+}
+.future_2{
+    padding: 0px 15px;
+}
+.future_1{
+    margin: 10px;
+    overflow: hidden;
 }
 
 .image_4 img{
