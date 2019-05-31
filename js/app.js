@@ -2,7 +2,7 @@
 var count = 0;
 var count1 = 0;
 //function=====================
-function BtnRight(firstElement, Width, elementLength, slg) {
+function moveRight(firstElement, Width, elementLength, slg) {
     firstElement.style.transition = "transform 0.6s ease-in-out";
     count++;
     if (count > elementLength - slg) {
@@ -10,7 +10,7 @@ function BtnRight(firstElement, Width, elementLength, slg) {
     }
     firstElement.style.transform = 'translateX(' + (-Width * count) + 'px)';
 }
-function BtnLeft(firstElement, Width, elementLength, slg) {
+function moveLeft(firstElement, Width, elementLength, slg) {
     firstElement.style.transition = "transform 0.6s ease-in-out";
     count--;
     if (count < 0) {
@@ -34,10 +34,10 @@ var timeNextSlide = setInterval(function () {
 }, 4000);
 
 function btnSlideLeft() {
-    BtnLeft(firstSlides, widthOfSlide, slides.length, 1);
+    moveLeft(firstSlides, widthOfSlide, slides.length, 1);
 }
 function btnSlideRight() {
-    BtnRight(firstSlides, widthOfSlide, slides.length, 1);
+    moveRight(firstSlides, widthOfSlide, slides.length, 1);
 }
 
 //btn click slide ================================
@@ -53,11 +53,11 @@ var products = document.querySelectorAll(".new_1 .pro_main .product_1");
 var widthOfNew = products[0].clientWidth;
 
 function btnProductLeft() {
-    BtnLeft(firstNewPro, widthOfNew, products.length, 4);
+    moveLeft(firstNewPro, widthOfNew, products.length, 4);
 }
 
 function btnProductRight() {
-    BtnRight(firstNewPro, widthOfNew, products.length, 4);
+    moveRight(firstNewPro, widthOfNew, products.length, 4);
 }
 
 //latest product ================================================
@@ -66,11 +66,11 @@ var latest = document.querySelectorAll(".new_2 .pro_main .product_2");
 var widthOfLate = latest[0].clientWidth;
 
 function btnLateProLeft() {
-    BtnLeft(firstLatePro, widthOfLate, latest.length, 5);
+    moveLeft(firstLatePro, widthOfLate, latest.length, 5);
 }
 
 function btnLateProRight() {
-    BtnRight(firstLatePro, widthOfLate, latest.length, 5);
+    moveRight(firstLatePro, widthOfLate, latest.length, 5);
 }
 
 //featured product==============================================
@@ -79,10 +79,10 @@ var features = document.querySelectorAll(".feature_main .feature_sp");
 var widthOfFeature = features[0].clientWidth;
 
 function btnFeatureProLeft() {
-    BtnLeft(firstFeature, widthOfFeature - 35, features.length, 3);
+    moveLeft(firstFeature, widthOfFeature - 35, features.length, 3);
 }
 function btnFeatureProRight() {
-    BtnRight(firstFeature, widthOfFeature - 35, features.length, 3);
+    moveRight(firstFeature, widthOfFeature - 35, features.length, 3);
 }
 
 //hot deal
@@ -91,10 +91,10 @@ var hotDeals = document.querySelectorAll(".deal_1 .hot_main .hot_product");
 var widthOfHot = hotDeals[0].clientWidth;
 
 function btnHotDealLeft() {
-    BtnLeft(firstHot, widthOfHot, hotDeals.length, 1);
+    moveLeft(firstHot, widthOfHot, hotDeals.length, 1);
 }
 function btnHotDealRight() {
-    BtnRight(firstHot, widthOfHot, hotDeals.length, 1);
+    moveRight(firstHot, widthOfHot, hotDeals.length, 1);
 }
 
 //special deal
@@ -103,8 +103,8 @@ var specialDeals = document.querySelectorAll(".deal_2 .hot_main .hot_product");
 var widthOfSpecial = specialDeals[0].clientWidth;
 
 function btnSpecialDealLeft() {
-    BtnLeft(firstSpecial, widthOfSpecial, specialDeals.length, 1);
+    moveLeft(firstSpecial, widthOfSpecial, specialDeals.length, 1);
 }
 function btnSpecialDealRight() {
-    BtnRight(firstSpecial, widthOfSpecial, specialDeals.length, 1);
+    moveRight(firstSpecial, widthOfSpecial, specialDeals.length, 1);
 }
