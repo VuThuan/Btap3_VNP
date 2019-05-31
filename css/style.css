@@ -520,15 +520,15 @@ width: 10%;
     height: 100%;
 }
 
-.fasion{ 
+.fasion_sale{ 
     margin-left: 2%;   
-    margin-top: 2%;
+    margin-top: 23px;
     display: flex;
     width: 88%;
     height: auto;
 }
 
-.fasion_1{
+.fasion{
     display: flex;
     margin: 9px 7px;
     background-color: white;
@@ -538,23 +538,23 @@ width: 10%;
 }
 
 
-.fasion_1 .fasion_img{
+.fasion .fasion_img{
     background-image: url('../Images/image_5.png');
     background-size: 100% 100%;
     width: 250px;
     height: 250px;
 }
-.fasion_1 .fasion_img_ngang{
+.fasion .fasion_img_ngang{
     border-top: 250px solid transparent;
     border-right: 75px solid white;
 }
-.fasion_1 .fasion_text{
+.fasion .fasion_text{
     width: 45%;
     padding-top: 30px;
     padding-right: 20px;
     text-align: right;
 }
-.fasion_1 .fasion_text a{
+.fasion .fasion_text a{
     color: #0f8ce9;
     font-weight: bold;
     text-transform: uppercase;
@@ -751,20 +751,20 @@ center{
 .in_banner{
     padding-top: 60px;
 }
-#line1{
+.line1{
     margin-left: 68px;
     font-family: latoblack;
     font-size: 35px;
     color: #303a7a;
 }
-#line2{
+.line2{
     margin-left: 40px;
     font-family: latoblack;
     font-size: 55px;
     color: #fff;
     text-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
-#line3{
+.line3{
     margin-left: 140px;
     font-family: latoblack;
     font-size: 20px;
@@ -781,31 +781,6 @@ center{
 .button-banner:hover{
     border: 2px solid white;
     color: white;
-}
-
-.in_lap{
-    padding-top: 50px;
-}
-
-.in_lap .line1{
-    margin-left: 480px;
-    font-family: latobold;
-    font-size: 15px;
-    color: black;
-}
-.in_lap .line2{
-    margin-left: 480px;
-    font-family: latobold;
-    font-size: 15px;
-    color: #0f8ce9;
-}
-
-.in_lap .button_lap{
-    margin-left: 500px;
-    width: 100px;
-    height: 40px;
-    background-color: #f22f49;
-    border-radius: 7px;
 }
 
 
