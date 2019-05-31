@@ -177,10 +177,10 @@ width: 10%;
 #content{
     display: flex;
 }
-#navbar{
+#content_left{
     width: 30%;
 }
-#product{
+#content_right{
     width: 70%;
 }
 
@@ -221,7 +221,7 @@ width: 10%;
 }
 
 
-.image_container{
+.banner_img{
     width: 100%;
     position: relative;
     height: 350px;
@@ -294,17 +294,18 @@ width: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.hot_container{
+.hot_main{
     display: flex;
 }
 .deal_1{
     overflow: hidden;
+    margin: 20px;
 }
 .deal_2{
     overflow: hidden;
 }
 
-.card-header {
+.hot_header {
   display: flex;
   border-bottom: 1px solid #a6a6a6;
   padding-bottom: 14px;
@@ -313,23 +314,23 @@ width: 10%;
   justify-content: space-between;
 }
 
-.dots{
+.carets{
     text-align: right;
 }
 
-.dots .dot_left,.dot_right {
+.carets .caret_left,.caret_right {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
 }
-.dots .dot_left i{
+.carets .caret_left i{
     padding-right: 2px;
 }
-.dots .dot_right i{
+.carets .caret_right i{
     padding-left: 2px;
 }
 
- .dots .dot_left i, .dot_right i {
+ .carets .caret_left i, .caret_right i {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -340,7 +341,7 @@ width: 10%;
   text-align: center;
   cursor: pointer;
 }
- .dots .dot_left i:hover,.dot_right i:hover{
+ .carets .caret_left i:hover,.caret_right i:hover{
      background: red;
  }
 
@@ -407,7 +408,7 @@ width: 10%;
     text-align: right;
     padding-top: 10px;
 }
-.pro_title .dots{
+.pro_title .carets{
     padding-top: 10px;
     width: 10%;
     float: right;
@@ -424,19 +425,19 @@ width: 10%;
     color: black; 
     font-size: 13px;
 }
-/*mid*/
+/*pro_main*/
 
-.mid{
+.pro_main{
     margin: 15px 15px;
     display: flex;
     font-family: latoreg;
     font-size: 14px;
 }
-.product_1,.product_2,.product_3,.product_4{
+.product_1,.product_2{
     width: 22%;
     margin: 0 8px;
 }
-.image_3 img{
+.pro_img img{
     margin-top: 2%;
     width: 165px;
     height: 200px;
@@ -461,6 +462,7 @@ width: 10%;
     color:#ffc808;
 }
 .price_4 a{
+    white-space: nowrap;
     color:#6e6e6e;
 }
 
@@ -474,12 +476,12 @@ width: 10%;
 }
 .box input{
     width: 97%;
-    height: 40px;
+    height: 45px;
     border-radius: 9px;
-    font-size: 15px;
+    font-size: 18px;
     background-color: #f3f3f3;
     border: none;
-    out
+    outline: none;
 }
 
 .box_button{
@@ -493,8 +495,8 @@ width: 10%;
 .box_button a{
     color: white;
 }
-.letter{
-    margin-top: 5%;
+.newLetter{
+    margin-top: 30px;
     background-color: white;
     margin-left: 25%;
     width: 68%;
@@ -504,7 +506,7 @@ width: 10%;
 }
 
 .men{
-    margin-top: 5%;
+    margin-top: 30px;
     margin-left: 25%;
     background-color: #fff;
     width: 68%;
@@ -561,7 +563,7 @@ width: 10%;
     border-bottom: #0f8ce9 solid 2px;
 }
 .laptop{
-    margin-top: 3%;
+    margin-top: 30px;
     margin-left: 3%;
     width: 86%;
     height: 230px;
@@ -598,31 +600,31 @@ width: 10%;
     color: white;
 }
 
-.future{
+.feature_pro{
     margin-left: 3%;
     background-color: white;
     width: 86%;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
     margin-top: 30px;
 }
-.future .pro_title .pro_name{
+.feature_pro .pro_title .pro_name{
     width: 30%;
     font-family: latobold;
     font-size: 17px;
 }
-.future .pro_title .dots{
+.feature_pro .pro_title .carets{
     width: 80%;
     float: right;
 }
 
-.future_a{
+.feature_main{
     display: flex;
     padding: 20px 20px 20px 0;
 }
-.future_2{
+.feature_sp{
     padding: 0px 15px;
 }
-.future_1{
+.feature_container{
     margin: 10px;
     overflow: hidden;
 }
@@ -634,18 +636,18 @@ width: 10%;
 }
 
 
-.fb{
+.feature_image{
     display: flex;
     padding-bottom: 20px;
 }
-.last_foot{
+.logo{
     margin-top: 2%;
     width: 100%;
     height: 150px;
     background-color: #f10e34;
 }
 
-.last_1{
+.logo_all{
     padding-top: 30px;
     margin-left: 8%;
     display: grid;
@@ -658,7 +660,7 @@ width: 10%;
     background-color: #222222;
 }
 
-.foot_lol{
+.foot_main{
     padding-top: 45px;
     margin-left: 8%;
     display: grid;
@@ -667,20 +669,21 @@ width: 10%;
     font-size: 13px;
     color: #a1a1a1;
     font-family: latoreg;
+    padding-left: 15px;
 }
 
 .color{
     color: #6e6e6e;
 }
 
-.foot_lol ul li i{
+.foot_main ul li i{
     color: #f10e34; 
     padding-right: 10px;
 }
-.foot_lol ul li a{
+.foot_main ul li a{
     color: #a1a1a1;
 }
-.foot_lol h3{
+.foot_main h3{
     color: white;
     font-size: 16px;
 }
@@ -720,7 +723,7 @@ width: 10%;
     padding-top: 6px;
 }
 
-.foot_foot{
+.footer_end{
     background-color: black;
     width: 100%;
     height: 100px;

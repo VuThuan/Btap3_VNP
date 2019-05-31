@@ -20,8 +20,8 @@ function BtnLeft(firstElement, Width, elementLength, slg) {
 }
 
 //slide ====================================
-var firstSlides = document.querySelector(".image_container");
-var slides = document.querySelectorAll(".image_container .image");
+var firstSlides = document.querySelector(".banner_img");
+var slides = document.querySelectorAll(".banner_img .image");
 var widthOfSlide = slides[0].clientWidth;
 
 var timeNextSlide = setInterval(function () {
@@ -48,8 +48,8 @@ function currentSlide(e) {
 }
 
 //new product========================================
-var firstNewPro = document.querySelector(".new_1 .mid");
-var products = document.querySelectorAll(".new_1 .mid .product_1");
+var firstNewPro = document.querySelector(".new_1 .pro_main");
+var products = document.querySelectorAll(".new_1 .pro_main .product_1");
 var widthOfNew = products[0].clientWidth;
 
 function btnProductLeft() {
@@ -61,8 +61,8 @@ function btnProductRight() {
 }
 
 //latest product ================================================
-var firstLatePro = document.querySelector(".new_2 .mid");
-var latest = document.querySelectorAll(".new_2 .mid .product_2");
+var firstLatePro = document.querySelector(".new_2 .pro_main");
+var latest = document.querySelectorAll(".new_2 .pro_main .product_2");
 var widthOfLate = latest[0].clientWidth;
 
 function btnLateProLeft() {
@@ -74,8 +74,8 @@ function btnLateProRight() {
 }
 
 //featured product==============================================
-var firstFeature = document.querySelector(".future_a");
-var features = document.querySelectorAll(".future_a .future_2");
+var firstFeature = document.querySelector(".feature_main");
+var features = document.querySelectorAll(".feature_main .feature_sp");
 var widthOfFeature = features[0].clientWidth;
 
 function btnFeatureProLeft() {
@@ -86,8 +86,8 @@ function btnFeatureProRight() {
 }
 
 //hot deal
-var firstHot = document.querySelector(".deal_1 .hot_container");
-var hotDeals = document.querySelectorAll(".deal_1 .hot_container .sp_hot");
+var firstHot = document.querySelector(".deal_1 .hot_main");
+var hotDeals = document.querySelectorAll(".deal_1 .hot_main .hot_product");
 var widthOfHot = hotDeals[0].clientWidth;
 
 function btnHotDealLeft() {
@@ -98,8 +98,8 @@ function btnHotDealRight() {
 }
 
 //special deal
-var firstSpecial = document.querySelector(".deal_2 .hot_container");
-var specialDeals = document.querySelectorAll(".deal_2 .hot_container .sp_hot");
+var firstSpecial = document.querySelector(".deal_2 .hot_main");
+var specialDeals = document.querySelectorAll(".deal_2 .hot_main .hot_product");
 var widthOfSpecial = specialDeals[0].clientWidth;
 
 function btnSpecialDealLeft() {
@@ -108,5 +108,3 @@ function btnSpecialDealLeft() {
 function btnSpecialDealRight() {
     BtnRight(firstSpecial, widthOfSpecial, specialDeals.length, 1);
 }
-
-
